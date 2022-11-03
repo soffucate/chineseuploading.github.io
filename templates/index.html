@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Example Title</h1>
+<br>
+<p class="lead">Welcome to Aikufurr's Flask Website Demo.</p>
+<p>Examples for searching, <code>index, home, page, files</code></p>
+<p>If it finds an exact match it'll automatically redirect, if it finds one that has multiple tags, eg index and second page share the <code>page</code> tag, it'll show the user a list of sites that match</p>
+<p>If it can't find a match, it'll redirect to the index page</p>
+
+<p>On the Second Page it has a file upload demo, the second page can be found in the dropdown menu</p>
+
+{% endblock %}
